@@ -1,0 +1,21 @@
+# Credenciales
+.env
+config.h
+secrets.h
+
+# PlatformIO
+.pio/
+.vscode/
+
+# Python
+__pycache__/
+venv/
+*.pyc
+*.sqlite3
+*.sqlite
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
