@@ -1,14 +1,14 @@
 #include <Arduino.h>
-#define LED_BUILTIN 2  
-
+#define  LED_PIN 12
 void setup() {
-  // Configurar el pin del LED como salida
-  pinMode(LED_BUILTIN, OUTPUT);
+  // put your setup code here, to run once:
+  pinMode (LED_PIN, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // Encender LED
-  delay(500);                        // Esperar 500 ms (0.5 segundos)
-  digitalWrite(LED_BUILTIN, LOW);    // Apagar LED
-  delay(500);                        // Esperar 500 ms
+  // put your main code here, to run repeatedly:
+  digitalWrite (LED_PIN, HIGH);	// turn on the LED
+  delay(500);	// wait for half a second or 500 milliseconds
+  digitalWrite (LED_PIN, LOW);	// turn off the LED
+  delay(500);	// wait for half a second or 500 milliseconds
 }
