@@ -1,11 +1,11 @@
 //circuito con buzzer activo 3.3v, controlado por suscripcion mqtt en celular, IoT MQTT Panel (android)
-
+#include <Arduino.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
 
 // Configuración de Red
 const char* ssid = "Fibertel WiFi014 2.4GHz";
-const char* password = "contrase�a";
+const char* password = "contrase�a";
 
 // Configuración del Broker MQTT
 const char* mqtt_server = "192.168.0.39"; // Broker público de prueba
